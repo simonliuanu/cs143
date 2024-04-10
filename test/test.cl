@@ -1,9 +1,7 @@
-class Main {
-    i : IO <- new IO;
-    main() : Int {
+class Main inherits IO {
+    main() : Object {
         {
-            i.out_string("Hello, World!\n");
-            1;
+            out_string("Hello, World!\n");
         }
     };
 };
